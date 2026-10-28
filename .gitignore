@@ -1,0 +1,28 @@
+# Mod jars are not redistributed (licenses) - see MODLIST.md
+mods/*.jar
+!mods/.gitkeep
+
+# Local game data
+saves/
+logs/
+crash-reports/
+journeymap/
+local/
+downloads/
+screenshots/
+schematics/
+shaderpacks/
+.curseclient
+minecraftinstance.json
+options.txt
+optionsof.txt
+servers.dat
+usercache.json
+usernamecache.json
+patchouli_data.json
+kubejs/exported/
+*.log
+
+# Personal client video settings
+config/embeddium-options.json
+*.bak
