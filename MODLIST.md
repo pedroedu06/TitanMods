@@ -185,7 +185,7 @@
 | Thermal Locomotion | `thermal_locomotion` | 1.5.0.4 | `thermal_locomotion-1.16.5-1.5.0.4.jar` |
 | Thermal Series | `thermal` | 1.5.2.30 | `thermal_foundation-1.16.5-1.5.2.30.jar` |
 | Tinkers' Construct | `tconstruct` | 3.3.4.335 | `TConstruct-1.16.5-3.3.4.335.jar` |
-| Titan Ores | `titanores` | 1.0.0 | `titanores-1.0.0.jar` |
+| Titan Ores | `titanores` | 1.0.1 | `titanores-1.0.1.jar` |
 | Titanium | `titanium` | 3.2.8.9 | `titanium-1.16.5-3.2.8.9-25.jar` |
 | Tom's Simple Storage Mod | `toms_storage` | 1.2.24 | `toms_storage-1.16.5-1.2.24.jar` |
 | Torchmaster | `torchmaster` | 2.3.8 | `torchmaster-2.3.8.jar` |
