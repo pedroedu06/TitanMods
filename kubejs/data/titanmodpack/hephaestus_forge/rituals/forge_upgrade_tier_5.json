@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "item": "minecraft:nether_star",
+      "slot": 0
+    },
+    {
+      "item": "minecraft:nether_star",
+      "slot": 1
+    },
+    {
+      "item": "forbidden_arcanus:dark_nether_star",
+      "slot": 2
+    },
+    {
+      "item": "forbidden_arcanus:dark_nether_star",
+      "slot": 3
+    },
+    {
+      "item": "forbidden_arcanus:dragon_scale",
+      "slot": 4
+    },
+    {
+      "item": "forbidden_arcanus:dragon_scale",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "forbidden_arcanus:stellarite_block",
+  "essences": {
+    "aureal": 1000,
+    "souls": 100,
+    "blood": 20000
+  },
+  "result": {
+    "item": "titanores:forge_upgrade_tier_5",
+    "count": 1
+  }
+}

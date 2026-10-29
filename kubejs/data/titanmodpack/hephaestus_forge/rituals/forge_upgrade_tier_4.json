@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "item": "forbidden_arcanus:stellarite_piece",
+      "slot": 0
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece",
+      "slot": 1
+    },
+    {
+      "item": "forbidden_arcanus:stellarite_piece",
+      "slot": 2
+    },
+    {
+      "item": "forbidden_arcanus:rune",
+      "slot": 3
+    },
+    {
+      "item": "forbidden_arcanus:rune",
+      "slot": 4
+    },
+    {
+      "item": "forbidden_arcanus:rune",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "forbidden_arcanus:chiseled_polished_darkstone",
+  "essences": {
+    "aureal": 800,
+    "souls": 10,
+    "blood": 12000
+  },
+  "result": {
+    "item": "titanores:forge_upgrade_tier_4",
+    "count": 1
+  }
+}

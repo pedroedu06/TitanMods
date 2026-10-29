@@ -1,0 +1,38 @@
+{
+  "inputs": [
+    {
+      "item": "forbidden_arcanus:arcane_crystal",
+      "slot": 0
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal",
+      "slot": 1
+    },
+    {
+      "item": "forbidden_arcanus:arcane_crystal",
+      "slot": 2
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_ingot",
+      "slot": 3
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_ingot",
+      "slot": 4
+    },
+    {
+      "item": "forbidden_arcanus:arcane_gold_ingot",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "forbidden_arcanus:chiseled_polished_darkstone",
+  "essences": {
+    "aureal": 500,
+    "souls": 5,
+    "blood": 9000
+  },
+  "result": {
+    "item": "titanores:forge_upgrade_tier_3",
+    "count": 1
+  }
+}

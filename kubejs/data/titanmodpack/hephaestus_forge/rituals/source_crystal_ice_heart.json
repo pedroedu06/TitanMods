@@ -1,0 +1,39 @@
+{
+  "inputs": [
+    {
+      "item": "botania:gaia_ingot",
+      "slot": 0
+    },
+    {
+      "item": "iceandfire:ice_dragon_heart",
+      "slot": 1
+    },
+    {
+      "item": "mysticalagradditions:insanium_essence",
+      "slot": 2
+    },
+    {
+      "item": "twilightforest:magic_map_focus",
+      "slot": 3
+    },
+    {
+      "item": "botania:dragonstone",
+      "slot": 4
+    },
+    {
+      "item": "botania:dragonstone",
+      "slot": 5
+    }
+  ],
+  "hephaestus_forge_item": "minecraft:diamond",
+  "essences": {
+    "aureal": 600,
+    "souls": 8,
+    "blood": 20000,
+    "experience": 350
+  },
+  "result": {
+    "item": "titanores:source_crystal",
+    "count": 1
+  }
+}
