@@ -1,4 +1,7 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "crop_progress": true,
     "comparator": true,
@@ -16,6 +19,17 @@
     "show_crop": true,
     "show_soil": true,
     "show_debug": false
+  },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
   },
   "jade": {
     "horse_inventory": true,

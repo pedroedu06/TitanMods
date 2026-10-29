@@ -32,7 +32,7 @@
     "blood": 9000
   },
   "result": {
-    "item": "titanores:forge_upgrade_tier_3",
+    "item": "titanutilities:forge_upgrade_tier_3",
     "count": 1
   }
 }

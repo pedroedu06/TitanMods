@@ -1,7 +1,7 @@
-// Final items of the Titan Modpack (recipes that need other mods' machines/items).
+// Final items of TitanMods (recipes that need other mods' machines/items).
 onEvent('recipes', event => {
   // Sponge Bob: 7x8 Create Mechanical Crafter grid
-  event.recipes.create.mechanical_crafting('titanores:sponge_bob', [
+  event.recipes.create.mechanical_crafting('titanutilities:sponge_bob', [
     'AAAAAAA',
     'AAAAAAA',
     'ACBABCA',
@@ -18,5 +18,38 @@ onEvent('recipes', event => {
     E: 'minecraft:red_wool',
     F: 'minecraft:brown_wool',
     G: 'minecraft:black_concrete'
+  })
+
+  // Universal Remote: Titan Crafter (fixed 9x7 pattern), uses a full machine (200M FE) over 5 minutes
+  event.custom({
+    type: 'titanutilities:titan_crafting',
+    pattern: [
+      '         ',
+      ' FFRGRFF ',
+      ' FLAMPOF ',
+      ' EEECEEE ',
+      ' FBASPXF ',
+      ' FFWWWFF ',
+      '         '
+    ],
+    key: {
+      F: { item: 'industrialforegoing:machine_frame_supreme' },
+      R: { item: 'powah:energizing_rod_nitro' },
+      G: { tag: 'forge:gears/diamond' },
+      L: { item: 'integrateddynamics:logic_programmer' },
+      A: { item: 'appliedenergistics2:64k_cell_component' },
+      M: { item: 'appliedenergistics2:controller' },
+      P: { item: 'refinedstorage:64k_storage_part' },
+      O: { item: 'modularrouters:item_router' },
+      E: { item: 'mekanism:ultimate_energy_cube' },
+      C: { item: 'computercraft:computer_advanced' },
+      B: { item: 'ironfurnaces:million_furnace' },
+      S: { item: 'refinedstorage:controller' },
+      X: { item: 'fluxnetworks:flux_controller' },
+      W: { item: 'draconicevolution:wyvern_energy_core' }
+    },
+    energy: 200000000,
+    time: 6000,
+    result: { item: 'titanutilities:universal_remote', count: 1 }
   })
 })
