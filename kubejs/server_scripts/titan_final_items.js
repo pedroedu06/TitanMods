@@ -52,4 +52,18 @@ onEvent('recipes', event => {
     time: 6000,
     result: { item: 'titanutilities:universal_remote', count: 1 }
   })
+
+  // Iron Man Mask: PneumaticCraft Pressure Chamber at 5.0 bar (items in any order)
+  event.custom({
+    type: 'pneumaticcraft:pressure_chamber',
+    inputs: [
+      { type: 'pneumaticcraft:stacked_item', item: 'minecraft:red_wool', count: 3 },
+      { type: 'pneumaticcraft:stacked_item', tag: 'forge:storage_blocks/gold', count: 2 },
+      { item: 'mekanism:ultimate_energy_cube' },
+      { type: 'pneumaticcraft:stacked_item', item: 'solarflux:sp_7', count: 2 },
+      { item: 'mekanism:mekasuit_helmet' }
+    ],
+    pressure: 5.0,
+    results: [{ item: 'titanutilities:iron_man_mask' }]
+  })
 })
