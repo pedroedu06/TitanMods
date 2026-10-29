@@ -1,4 +1,4 @@
-// Final items of TitanMods (recipes that need other mods' machines/items).
+// TitanMods recipes (items/machines from other mods).
 onEvent('recipes', event => {
   // Sponge Bob: 7x8 Create Mechanical Crafter grid
   event.recipes.create.mechanical_crafting('titanutilities:sponge_bob', [
@@ -65,5 +65,18 @@ onEvent('recipes', event => {
     ],
     pressure: 5.0,
     results: [{ item: 'titanutilities:iron_man_mask' }]
+  })
+
+  // Ancestral Seed: Mystical Agriculture Infusion Altar (emberite seed in the center, 8 pedestals)
+  event.custom({
+    type: 'mysticalagriculture:infusion',
+    input: { item: 'titanores:emberite_seed' },
+    ingredients: [
+      { item: 'titanores:emberium_block' }, { item: 'mysticalagradditions:insanium_block' },
+      { item: 'titanores:emberium_block' }, { item: 'mysticalagradditions:insanium_block' },
+      { item: 'titanores:emberium_block' }, { item: 'mysticalagradditions:insanium_block' },
+      { item: 'titanores:emberium_block' }, { item: 'mysticalagradditions:insanium_block' }
+    ],
+    result: { item: 'titanutilities:ancestral_seed', count: 1 }
   })
 })
