@@ -77,6 +77,24 @@ onEvent('recipes', event => {
     R: 'appliedenergistics2:memory_card'
   })
 
+  // Antenna: crafting table (any PneumaticCraft drone in slot D)
+  event.custom({
+    type: 'minecraft:crafting_shaped',
+    pattern: ['ABC', 'EFD', 'GHI'],
+    key: {
+      A: { item: 'aeinfinitybooster:dimension_card' },
+      B: { item: 'xnet:antenna' },
+      C: { item: 'blue_skies:moonstone' },
+      E: { item: 'powah:energy_cell_nitro' },
+      F: { item: 'create:linked_controller' },
+      D: [{ item: 'pneumaticcraft:drone' }, { tag: 'pneumaticcraft:basic_drones' }],
+      G: { item: 'appliedenergistics2:quantum_ring' },
+      H: { item: 'refinedstorageaddons:wireless_crafting_grid' },
+      I: { item: 'twilightforest:fiery_ingot' }
+    },
+    result: { item: 'titanutilities:antenna', count: 1 }
+  })
+
   // Ancestral Seed: Mystical Agriculture Infusion Altar (emberite seed in the center, 8 pedestals)
   event.custom({
     type: 'mysticalagriculture:infusion',
