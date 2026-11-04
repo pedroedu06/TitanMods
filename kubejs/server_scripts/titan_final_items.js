@@ -67,6 +67,16 @@ onEvent('recipes', event => {
     results: [{ item: 'titanutilities:iron_man_mask' }]
   })
 
+  // Calculator: crafting table
+  event.shaped('titanutilities:calculator', [' A ', 'BCT', 'SR '], {
+    A: 'appliedenergistics2:wireless_access_point',
+    B: 'compactmachines:machine_large',
+    C: 'computercraft:computer_advanced',
+    T: 'appliedenergistics2:wireless_terminal',
+    S: 'titanores:solarite_magnet',
+    R: 'appliedenergistics2:memory_card'
+  })
+
   // Ancestral Seed: Mystical Agriculture Infusion Altar (emberite seed in the center, 8 pedestals)
   event.custom({
     type: 'mysticalagriculture:infusion',
