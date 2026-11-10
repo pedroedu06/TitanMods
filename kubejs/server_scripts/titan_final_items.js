@@ -20,7 +20,7 @@ onEvent('recipes', event => {
     G: 'minecraft:black_concrete'
   })
 
-  // Titan Star: 9x9 Create Mechanical Crafter cross (all 10 final items + Titanium Stars, emberium and 9x nether star blocks)
+  // Titan Star: 9x9 Create Mechanical Crafter cross (all 10 final items + Titanium Stars, emberium and 1x nether star blocks)
   event.recipes.create.mechanical_crafting('titanutilities:titan_star', [
     '    N    ',
     '   NUN   ',
@@ -32,7 +32,7 @@ onEvent('recipes', event => {
     '   NTN   ',
     '    N    '
   ], {
-    N: 'allthecompressed:nether_star_block_9x',
+    N: 'allthecompressed:nether_star_block_1x',
     E: 'titanores:emberium_block',
     T: 'titanores:titanium_star',
     U: 'titanutilities:universal_remote',
