@@ -20,6 +20,33 @@ onEvent('recipes', event => {
     G: 'minecraft:black_concrete'
   })
 
+  // Titan Star: 9x9 Create Mechanical Crafter cross (all 10 final items + Titanium Stars, emberium and 9x nether star blocks)
+  event.recipes.create.mechanical_crafting('titanutilities:titan_star', [
+    '    N    ',
+    '   NUN   ',
+    '   EIE   ',
+    ' NEECEEN ',
+    'NTDQSRMTN',
+    ' NEEAEEN ',
+    '   ELE   ',
+    '   NTN   ',
+    '    N    '
+  ], {
+    N: 'allthecompressed:nether_star_block_9x',
+    E: 'titanores:emberium_block',
+    T: 'titanores:titanium_star',
+    U: 'titanutilities:universal_remote',
+    I: 'titanutilities:iron_man_mask',
+    C: 'titanutilities:world_core',
+    S: 'titanutilities:sponge_bob',
+    A: 'titanutilities:antenna',
+    L: 'titanutilities:calculator',
+    D: 'titanutilities:ancestral_seed',
+    Q: 'titanutilities:source_crystal',
+    R: 'titanutilities:raid_king',
+    M: 'titanutilities:music_disc_titanium'
+  })
+
   // Universal Remote: Titan Crafter (fixed 9x7 pattern), uses a full machine (200M FE) over 5 minutes
   event.custom({
     type: 'titanutilities:titan_crafting',
